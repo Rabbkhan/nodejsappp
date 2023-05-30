@@ -1,0 +1,6 @@
+{
+    "Version": 2,
+    "name":"nodejsapp",
+    "builds": [{"Src":"index.js", "use": "@vercel/node"}],
+    "routes": [{"Src":"/(.*)", "dest":"/index.js"}]
+}
